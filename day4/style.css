@@ -1,0 +1,39 @@
+:root {
+    --background: white;
+    --text: black;
+    --button: #eeeeee;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+body.dark {
+    --background: #222222;
+    --text: white;
+    --button: #444444;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+}
+
+button {
+    background-color: var(--button);
+    color: var(--text);
+    margin-right: 5px;
+    padding: 8px 12px;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
